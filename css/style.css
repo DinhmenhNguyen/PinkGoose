@@ -317,7 +317,7 @@ header {
     font-family: "Montserrat";
 }
 
-.ethereum {
+.money-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -327,62 +327,6 @@ header {
     height: 100px;
     border-radius: 25px;
 }
-
-.polygon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #121E28;
-    outline: solid 2px #2A3744;
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
-}
-
-.gnosis {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #121E28;
-    outline: solid 2px #2A3744;
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
-}
-
-.snapshot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #121E28;
-    outline: solid 2px #2A3744;
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
-}
-
-.ens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #121E28;
-    outline: solid 2px #2A3744;
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
-}
-
-.open-sea {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #121E28;
-    outline: solid 2px #2A3744;
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
-}
-
 
 /**/
 
@@ -403,8 +347,7 @@ header {
 
 .team-images img {
     width: 110px;
-    border: 0px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .team-images-text-container {
