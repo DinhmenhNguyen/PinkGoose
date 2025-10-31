@@ -48,7 +48,7 @@
 
         <div>
             <nav>
-                <a href="" class="login">Login</a>
+                <button class="login">Login</button>
             </nav>
         </div>
 
@@ -61,11 +61,11 @@
                 <h2>Let's chat and see how we can help</h2>
             </div>
         </div>
-        
+
         <div class="telegram-and-email-container">
             <div class="telegram-container">
                 <div>
-                    <img src="Images/telegram.png" alt="telegram-icon">
+                    <img src="Images/telegram.png" alt="An image of the telegram logo">
                 </div>
                 <div>
                     <p class="telegram-title">Telegram</p>
@@ -75,7 +75,7 @@
 
             <div class="email-container">
                 <div>
-                    <img src="Images/email.png" alt="email-icon">
+                    <img src="Images/email.png" alt="An image of the email logo">
                 </div>
                 <div>
                     <p class="email-title">Email</p>
@@ -84,21 +84,19 @@
             </div>
         </div>
 
-        <div class="goose-post-container">
-            <div>
-                <div class="goose-post-block">
+        <form class="goose-post-container">
+            <div class="goose-post-background">
+                <div class="title-goose-post">
                     <h1>Send a post Goose</h1>
                 </div>
-                <div class="place1">
-                    <div class="placeholders-about">
-                        <input class="input-placeholder" placeholder="Your email">
-                        <input class="input-placeholder" placeholder="Your name">
-                    </div>
+                <div>
+                    <input class="input" type="email" placeholder="Your email">
                 </div>
-                <div class="place2">
-                    <div class="placeholders-about2">
-                        <input class="input-placeholder" placeholder="Your message">
-                    </div>
+                <div>
+                    <input class="input" type="test" placeholder="Your name">
+                </div>
+                <div>
+                    <textarea class="message" placeholder="Your message" rows="20"></textarea>
                 </div>
 
                 <select class="select-container">
@@ -109,46 +107,37 @@
                     <option value="option4">Black</option>
                 </select>
             </div>
-        </div>
-        <div>
-            <div>
-                <form class="submit-button">
-                    <button type="submit">Send</button>
-                </form>
+
+            <div class="submit-button-container">
+                <button class="submit-button" type="submit">Send</button>
             </div>
-        </div>
+        </form>
     </main>
 
     <footer class="footer-about">
-        <div class="about">
+        <ul class="about-jobs-legal-container">
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Jobs</a>
+            </li>
+            <li>
+                <a href="#" class="legal-text">Legal</a>
+            </li>
+        </ul>
+        <div class="footerimages-container">
             <div>
-                <div>
-                    <ul class="about-jobs-legal-container">
-                        <li>
-                            <a href="">About</a>
-                        </li>
-                        <li>
-                            <a href="">Jobs</a>
-                        </li>
-                        <li>
-                            <a href="" class="legal-text">Legal</a>
-                        </li>
-                    </ul>
-                </div>
+                <img src="Images/twitter-icon.png" alt="The logo of twitter">
             </div>
-            <div class="footerimages-container">
-                <div>
-                    <img src="Images/twitter-icon.png" alt="twitter-icon">
-                </div>
-                <div>
-                    <img src="Images/telegram-icon.png" alt="telegram-icon">
-                </div>
-                <div>
-                    <img src="Images/youtube-icon.png" alt="youtube-icon">
-                </div>
-                <div>
-                    <img src="Images/discord-icon.png" alt="discord-icon">
-                </div>
+            <div>
+                <img src="Images/telegram-icon.png" alt="The logo of Telegram">
+            </div>
+            <div>
+                <img src="Images/youtube-icon.png" alt="The logo of Youtube">
+            </div>
+            <div>
+                <img src="Images/discord-icon.png" alt="The logo of Discord">
             </div>
         </div>
     </footer>
