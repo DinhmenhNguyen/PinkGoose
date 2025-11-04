@@ -268,17 +268,14 @@ header {
 }
 
 .design-text h2 {
-    margin: 0px;
-}
-
-.design-text div {
-    font-size: 23px;
+    margin: 10px;
+    font-size: 30px;
     font-weight: 700;
-    padding: 10px;
 }
 
 .design-text-title {
     display: flex;
+    font-size: 35px;
     margin-bottom: 15px;
     color: white;
     justify-content: center;
@@ -433,7 +430,7 @@ header {
     height: 20px;
     border-radius: 8px;
     padding: 15px;
-    padding-right: 400px;
+    width: 600px ;
 }
 
 .subscribe {
@@ -902,7 +899,8 @@ footer {
 }
 
 .title-goose-post {
-    font-size: 30px;
+    font-size: 70px;
+    margin: 10px;
 }
 
 .message {
